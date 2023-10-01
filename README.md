@@ -2,10 +2,10 @@ Description
 
 ## How to build image
 
-``bash
+```bash
 docker build -t [containername]:v0.0.1 .
 `` 
 ##How to run container
-``bash
+```bash
 docker run -d -p:3000:3000 [imageid]
 ``
